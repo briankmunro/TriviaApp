@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="@string/home"
+        android:id="@+id/menuHome"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+    <item android:title="@string/new_quiz"
+        android:id="@+id/menuNewQuiz"
+        app:showAsAction="never|withText"
+        android:icon="@drawable/ic_baseline_quiz_24"/>
+
+    <item android:title="@string/see_stats"
+        android:id="@+id/menuSeeStats"
+        app:showAsAction="never|withText"
+        android:icon="@drawable/ic_baseline_percent_24"/>
+
+    <item android:title="@string/clear_stats"
+        android:id="@+id/menuClearStats"
+        app:showAsAction="never|withText"
+        android:icon="@drawable/ic_baseline_clear_24"/>
+
+
+</menu>

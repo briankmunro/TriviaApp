@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".QuizEndedFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/total_score"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/txtScore"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_margin="15dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/home"
+        android:textSize="25sp"
+        android:background="@color/buttonsHome"
+        android:textColor="@color/white"
+        android:id="@+id/btnHome"
+        android:layout_margin="30dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/see_stats"
+        android:textSize="25sp"
+        android:background="@color/buttonsHome"
+        android:textColor="@color/white"
+        android:id="@+id/btnQEStats"
+        android:layout_margin="30dp"/>
+
+</LinearLayout>
